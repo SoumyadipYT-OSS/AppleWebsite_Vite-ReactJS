@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  
+  base: '/AppleWebsite_Vite-ReactJS/',
 
   build: {
     chunkSizeWarningLimit: 2000,
