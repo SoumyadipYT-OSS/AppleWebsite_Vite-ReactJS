@@ -11,14 +11,12 @@ const HowItWorks = React.lazy(() => import('./components/HowItWorks'));
 const App = () => {
   return (
     <main className="bg-gradient-to-r from-emerald-900 via-slate-900 to-cyan-800">
-      <React.Suspense fallback={<div>Loading...</div>}>
-        <Navbar />
-        <Hero />
-        <Highlights />
-        <Model />
-        <Features />
-        <HowItWorks />
-      </React.Suspense>
+      <Navbar />
+      <Hero />
+      <Highlights />
+      <Model />
+      <Features />
+      <HowItWorks />
 
       <Footer />
     </main>
