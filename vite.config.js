@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/AppleWebsite_Vite-ReactJS/',
-
   build: {
     chunkSizeWarningLimit: 2000,
     rollupOptions: {
